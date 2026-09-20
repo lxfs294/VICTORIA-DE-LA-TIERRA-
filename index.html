@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victoria de la Tierra | Tradición que se cosecha</title>
+<style>
+:root{
+  --verde:#536b45; --verde2:#71865b; --tierra:#7a5638;
+  --crema:#f7f0df; --beige:#e8dcc5; --texto:#3d382f; --blanco:#fffdf8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,serif;color:var(--texto);background:var(--crema);line-height:1.6}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(247,240,223,.96);
+display:flex;justify-content:space-between;align-items:center;padding:14px 7%;box-shadow:0 2px 10px #0001}
+.logo{font-weight:bold;color:var(--verde);font-size:1.2rem}
+nav ul{display:flex;gap:24px;list-style:none}
+nav a{text-decoration:none;color:var(--texto);font-weight:bold}
+nav a:hover{color:var(--verde)}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;
+padding:120px 8% 70px;background:linear-gradient(#536b4590,#7a563880),url("hero.jpg") center/cover}
+.hero-box{background:#fffdf8e8;padding:45px;border-radius:20px;max-width:850px}
+h1{font-size:clamp(2.5rem,7vw,5rem);color:var(--verde);margin-bottom:8px}
+.slogan{font-size:1.4rem;color:var(--tierra);font-style:italic;margin-bottom:25px}
+.btn{display:inline-block;padding:12px 24px;border-radius:30px;background:var(--verde);color:white;
+text-decoration:none;font-weight:bold;margin:6px}
+section{padding:85px 8%;max-width:1200px;margin:auto}
+h2{text-align:center;color:var(--verde);font-size:2.2rem;margin-bottom:25px}
+.intro{text-align:center;max-width:850px;margin:0 auto 35px}
+.about{background:var(--blanco);max-width:none}
+.about-inner{max-width:1000px;margin:auto}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:var(--blanco);border-radius:18px;overflow:hidden;box-shadow:0 5px 18px #00000012}
+.card-img{height:180px;background:var(--beige);display:flex;align-items:center;justify-content:center;font-size:3.5rem}
+.card-body{padding:20px}
+.card h3{color:var(--tierra);margin-bottom:8px}
+.price{font-weight:bold;color:var(--verde);font-size:1.1rem;margin:12px 0}
+.whatsapp{background:#4d7c50}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.gallery div{height:220px;background:var(--beige);border-radius:16px;display:flex;align-items:center;justify-content:center;color:#756b5d}
+.contact{background:var(--verde);color:white;max-width:none}
+.contact h2{color:white}
+.contact-box{max-width:800px;margin:auto;text-align:center}
+footer{text-align:center;padding:25px;background:#3e5135;color:white}
+@media(max-width:700px){nav ul{gap:10px;font-size:.8rem}.logo{font-size:1rem}.hero-box{padding:30px}section{padding:65px 6%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Victoria de la Tierra</div>
+  <ul>
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#productos">Productos</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="hero-box">
+    <h1>Victoria de la Tierra</h1>
+    <p class="slogan">“Tradición que se cosecha.”</p>
+    <p>Productos hechos con dedicación, tradición familiar y amor por nuestra tierra.</p>
+    <a class="btn" href="#productos">Ver productos</a>
+    <a class="btn whatsapp" href="https://wa.me/527717003306" target="_blank">Comprar por WhatsApp</a>
+  </div>
+</header>
+
+<section class="about" id="nosotros">
+<div class="about-inner">
+<h2>Nuestra historia</h2>
+<p class="intro">
+<strong>Victoria de la Tierra</strong> nace como una iniciativa de emprendimiento familiar basada en la unión,
+la colaboración y el compromiso con nuestras raíces. El proyecto surge del deseo de aprovechar los productos
+y recursos que ofrece la tierra, transformándolos mediante procesos artesanales en productos de calidad para
+compartir con nuestra comunidad.
+</p>
+<p class="intro">
+Nuestra propuesta se construye a partir de la participación de tres integrantes de una misma familia,
+quienes unen sus conocimientos, habilidades y esfuerzo para desarrollar una actividad productiva con identidad
+propia. Esta colaboración representa una oportunidad para fortalecer los lazos familiares, generar nuevas
+experiencias y construir un proyecto con visión de crecimiento.
+</p>
+<p class="intro">
+Uno de los valores fundamentales de <strong>Victoria de la Tierra</strong> es la <strong>inclusión</strong>.
+Creemos firmemente en reconocer las capacidades, talentos y aportaciones de cada persona, creando espacios
+donde todos puedan participar, aprender y contribuir al desarrollo de un objetivo común.
+</p>
+<p class="intro">
+Dentro de nuestra oferta se encuentran <strong>algunos productos como licores, mermeladas, quesos, yogur,
+leche y hortalizas orgánicas</strong>, elaborados con dedicación y procurando conservar el carácter artesanal
+y natural que distingue a nuestro proyecto.
+</p>
+<p class="intro">
+Nuestro propósito es consolidarnos como una iniciativa familiar responsable y sostenible, manteniendo como
+pilares la <strong>calidad, el trabajo, la inclusión, la responsabilidad y el respeto por nuestras tradiciones</strong>.
+</p>
+<p class="intro">
+<strong>Victoria de la Tierra</strong> representa más que una marca: es el resultado de la unión de esfuerzos,
+el amor por nuestras raíces y el compromiso de transformar los frutos de la tierra en productos que lleven
+consigo una historia de dedicación, identidad y trabajo familiar.
+</p></div>
+</section>
+
+<section id="productos">
+<h2>Nuestros productos</h2>
+<p class="intro">Selecciona un producto para conocer su precio y realizar tu pedido por WhatsApp.</p>
+<div class="products">
+  <article class="card"><div class="card-img">🍷</div><div class="card-body"><h3>Licores</h3><p>Elaborados de manera artesanal.</p><p class="price">Precio: $_____</p><a class="btn whatsapp" href="https://wa.me/527717003306?text=Hola,%20me%20interesa%20comprar%20licores%20de%20Victoria%20de%20la%20Tierra." target="_blank">Pedir</a></div></article>
+  <article class="card"><div class="card-img">🍓</div><div class="card-body"><h3>Mermeladas</h3><p>Preparadas con ingredientes seleccionados.</p><p class="price">Precio: $_____</p><a class="btn whatsapp" href="https://wa.me/527717003306?text=Hola,%20me%20interesan%20las%20mermeladas%20de%20Victoria%20de%20la%20Tierra." target="_blank">Pedir</a></div></article>
+  <article class="card"><div class="card-img">🧀</div><div class="card-body"><h3>Queso</h3><p>Producto fresco de elaboración familiar.</p><p class="price">Precio: $_____</p><a class="btn whatsapp" href="https://wa.me/527717003306?text=Hola,%20me%20interesa%20el%20queso%20de%20Victoria%20de%20la%20Tierra." target="_blank">Pedir</a></div></article>
+  <article class="card"><div class="card-img">🥛</div><div class="card-body"><h3>Yogur</h3><p>Elaborado con leche y cuidado artesanal.</p><p class="price">Precio: $_____</p><a class="btn whatsapp" href="https://wa.me/527717003306?text=Hola,%20me%20interesa%20el%20yogur%20de%20Victoria%20de%20la%20Tierra." target="_blank">Pedir</a></div></article>
+  <article class="card"><div class="card-img">🥛</div><div class="card-body"><h3>Leche</h3><p>Producto fresco de nuestra producción.</p><p class="price">Precio: $_____</p><a class="btn whatsapp" href="https://wa.me/527717003306?text=Hola,%20me%20interesa%20la%20leche%20de%20Victoria%20de%20la%20Tierra." target="_blank">Pedir</a></div></article>
+  <article class="card"><div class="card-img">🥬</div><div class="card-body"><h3>Hortalizas orgánicas</h3><p>Productos frescos cultivados con cuidado.</p><p class="price">Precio: $_____</p><a class="btn whatsapp" href="https://wa.me/527717003306?text=Hola,%20me%20interesan%20las%20hortalizas%20orgánicas%20de%20Victoria%20de%20la%20Tierra." target="_blank">Pedir</a></div></article>
+</div>
+</section>
+
+<section id="galeria">
+<h2>Galería</h2>
+<p class="intro">Aquí colocaremos las fotografías de sus productos, la familia, el campo y el proceso de elaboración.</p>
+<div class="gallery">
+<div>📷 Foto del producto</div><div>📷 Foto del campo</div><div>📷 Proceso artesanal</div><div>📷 Familia</div>
+</div>
+</section>
+
+<section class="contact" id="contacto">
+<div class="contact-box">
+<h2>Haz tu pedido</h2>
+<p>Comunícate con nosotros por WhatsApp para consultar disponibilidad, precios y realizar tu pedido.</p>
+<p style="margin:20px 0"><strong>WhatsApp 1:</strong> 771 700 3306<br><strong>WhatsApp 2:</strong> 771 208 0338</p>
+<a class="btn whatsapp" href="https://wa.me/527717003306" target="_blank">WhatsApp 1</a>
+<a class="btn whatsapp" href="https://wa.me/527712080338" target="_blank">WhatsApp 2</a>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Victoria de la Tierra · “Tradición que se cosecha.”</p>
+</footer>
+</body>
+</html>
